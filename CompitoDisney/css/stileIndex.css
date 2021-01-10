@@ -1,0 +1,24 @@
+#principale1{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+#principale2{
+    border: 1px solid black;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+}
+a:hover, a:active {
+    text-decoration: underline overline;
+    color: #aaa;
+}
+
+#personaggi{
+    height: 600px;
+    border-right:1px solid black;
+}
+

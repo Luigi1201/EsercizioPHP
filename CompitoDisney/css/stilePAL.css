@@ -1,0 +1,48 @@
+#principale1{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+#principale2{
+    border: 1px solid black;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+}
+a:hover, a:active {
+    text-decoration: underline overline;
+    color: #aaa;
+}
+
+body{
+    width:100%;
+    background-image: url(../contentMedia/natale.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#contenitore{
+    background-color: antiquewhite;
+    margin-left: 2rem;
+    margin-right: 12rem;
+    border: 2 px solid black;
+    height:400px;   
+    margin-bottom:5rem;
+
+}
+
+#img{
+    float:left;
+    height:50%;
+    width:50%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
